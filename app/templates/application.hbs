@@ -1,5 +1,13 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="navbar">
+    <div class="left-nav">
+        <h3 style="padding: 10px;">EMB</h3>
+    </div>
+    <div class="right-nav">
+    {{person-icon}}
+    </div>
+    <div style="padding: 15px;">Joe Schmoe</div>
+</div>
 
+<div class="body">
 {{outlet}}
+</div>
